@@ -15,27 +15,14 @@ const database = [
     route: '/dashboard',
   },
   {
-    id: '2',
-    breadcrumbParentId: '1',
-    name: 'Users',
-    zh: {
-      name: '用户管理'
-    },
-    'pt-br': {
-      name: 'Usuário'
-    },
-    icon: 'user',
-    route: '/user',
-  },
-  {
     id: '7',
     breadcrumbParentId: '1',
-    name: 'Posts',
+    name: 'Stakeholder',
     zh: {
       name: '用户管理'
     },
     'pt-br': {
-      name: 'Posts'
+      name: 'Stakerholder'
     },
     icon: 'shopping-cart',
     route: '/post',
@@ -117,34 +104,6 @@ const database = [
     },
     icon: 'line-chart',
     route: '/chart/ECharts',
-  },
-  {
-    id: '52',
-    breadcrumbParentId: '5',
-    menuParentId: '5',
-    name: 'HighCharts',
-    zh: {
-      name: 'HighCharts'
-    },
-    'pt-br': {
-      name: 'HighCharts'
-    },
-    icon: 'bar-chart',
-    route: '/chart/highCharts',
-  },
-  {
-    id: '53',
-    breadcrumbParentId: '5',
-    menuParentId: '5',
-    name: 'Rechartst',
-    zh: {
-      name: 'Rechartst'
-    },
-    'pt-br': {
-      name: 'Rechartst'
-    },
-    icon: 'area-chart',
-    route: '/chart/Recharts',
   },
 ]
 
