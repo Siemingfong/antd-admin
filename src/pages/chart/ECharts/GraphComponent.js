@@ -1,6 +1,20 @@
 import React from 'react'
 import ReactEcharts from 'echarts-for-react'
 
+// GS1 data
+//import { gs1data } from '../json/WOT_Example_1.json';
+var gs1data = require('../json/WOT_Example_1.json');
+const loadData = (jsonData) => JSON.parse(JSON.stringify(jsonData));
+gs1data = loadData(gs1data)
+
+/*
+for(var i = 0; i < gs1data.length; i++) {
+    var obj = gs1data[i];
+ 
+    console.log("Name: " + obj.first_name + ", " + obj.last_name);
+}
+*/
+
 const GraphComponent = () => {
   const getOtion = () => {
     const webkitDep = {
