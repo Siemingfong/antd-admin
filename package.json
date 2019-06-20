@@ -32,6 +32,7 @@
     "react-adsense": "^0.0.6",
     "react-countup": "^4.1.0",
     "react-draft-wysiwyg": "^1.13.0",
+    "react-graph-vis": "^1.0.2",
     "react-helmet": "^5.2.0",
     "react-highcharts": "^16.0.2",
     "react-perfect-scrollbar": "^1.4.2",

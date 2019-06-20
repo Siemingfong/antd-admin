@@ -15,7 +15,7 @@ class DynamicChartComponent extends React.Component {
         trigger: 'axis',
       },
       legend: {
-        data: ['最新成交价', '预购队列'],
+        data: ['TPS'],
       },
       toolbox: {
         show: true,
@@ -104,7 +104,7 @@ class DynamicChartComponent extends React.Component {
         {
           type: 'value',
           scale: true,
-          name: '预购量',
+          name: '',
           max: 1200,
           min: 0,
           boundaryGap: [0.2, 0.2],
@@ -138,7 +138,7 @@ class DynamicChartComponent extends React.Component {
           })(),
         },
         {
-          name: '最新成交价',
+          name: 'TPS',
           type: 'line',
           data: (function() {
             let res = []

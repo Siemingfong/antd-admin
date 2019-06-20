@@ -8,29 +8,10 @@ const RadioGroup = Radio.Group
 
 const chartList = [
   {
-    label: 'SimpleChart',
-    value: 'simple',
-  },
-  {
-    label: 'ChartShowLoading',
-    value: 'loading',
-  },
-  {
-    label: 'ChartAPI',
-    value: 'api',
-  },
-  {
-    label: 'ChartWithEvent',
-    value: 'events',
-  },
-  {
-    label: 'ThemeChart',
-    value: 'theme',
-  },
-  {
     label: 'DynamicChart',
     value: 'dynamic',
   },
+  /*
   {
     label: 'MapChart',
     value: 'map',
@@ -39,10 +20,12 @@ const chartList = [
     label: 'AirportCoord',
     value: 'airport',
   },
+  */
   {
     label: 'Graph',
     value: 'graph',
   },
+  /*
   {
     label: 'Calendar',
     value: 'calendar',
@@ -75,6 +58,7 @@ const chartList = [
     label: 'TransparentBar3D',
     value: 'TransparentBar3DComPonent',
   },
+  */
 ]
 
 class Chart extends React.Component {
